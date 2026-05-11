@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python load_data.py --reset)",
+      "Bash(python train_model.py)",
+      "Bash(python -c \"import sys,json; [print\\(json.loads\\(l\\).get\\('stdout',''\\),end=''\\) for l in sys.stdin if 'stdout' in json.loads\\(l\\)]\")",
+      "Bash(python train_model.py --save)"
+    ]
+  }
+}
