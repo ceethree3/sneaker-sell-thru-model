@@ -74,5 +74,3 @@ sneaker-sell-thru-model/
 └── load_data.py
 ```
 
-- Jupyter Notebook
-
