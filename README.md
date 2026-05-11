@@ -1,8 +1,8 @@
-\# Shoe Sell-Through Predictive Model
+# Shoe Sell-Through Predictive Model
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
@@ -14,19 +14,19 @@ identifying which styles are likely to underperform before they become a problem
 
 
 
-\## Core Outputs
+## Core Outputs
 
 
 
-\- Predicted sell-through percentage per shoe style
+- Predicted sell-through percentage per shoe style
 
-\- Risk flags for styles unlikely to sell through before markdown or return window
+- Risk flags for styles unlikely to sell through before markdown or return window
 
-\- Reorder and discount recommendations based on predicted performance
+- Reorder and discount recommendations based on predicted performance
 
 
 
-\## Data
+## Data
 
 
 
@@ -36,7 +36,7 @@ Data lives in the `/data` folder. Schema is defined in `/sql/schema.sql`.
 
 
 
-\## Project Phases
+## Project Phases
 
 
 
@@ -50,21 +50,13 @@ Data lives in the `/data` folder. Schema is defined in `/sql/schema.sql`.
 
 
 
-\## Tools
+## Tools
 
 
 
-\- SQLite
+- SQLite
 
-\- Python (pandas, scikit-learn)
+- Python (pandas, scikit-learn)
 
-\- Jupyter Notebook
-
-
-
-\## Status
-
-
-
-In progress — Phase 1 not yet started.
+- Jupyter Notebook
 
